@@ -9,4 +9,4 @@ lang.txt is used to list inappropriate words that needs to be filtered. blacklis
 
 Usage:
 Start proxy server - "java ProxyServer <portNumber>"
-Start client: "java Client <server hostname/IP Address> <portNumber>"
+Start client - "java Client <server hostname/IP Address> <portNumber>"
