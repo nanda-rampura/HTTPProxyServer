@@ -8,5 +8,4 @@ When the proxy server receives an HTTP request for an URL from the client, it ge
 lang.txt is used to list inappropriate words that needs to be filtered. blacklist.txt is used to list URLs that need to be blocked, along the time interval during which they need to be blocked. log.txt is generated when the server runs and starts accepting client request. It will log the traffic on proxy server. testedURLs.txt contains a list of URLs that have been tested with the proxy server implmentation.
 
 Usage:
-Start proxy server - "java ProxyServer <portNumber>"
-Start client - "java Client <server hostname/IP Address> <portNumber>"
+Start proxy server - "java ProxyServer <portNumber>", start client - "java Client <server hostname/IP Address> <portNumber>"
